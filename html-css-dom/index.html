@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Perfumes latinos</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Perfumes Latinos</h1>
+        <h3>Registro de ventas</h3>
+        <h4>Ventas de Juana</h4>
+        <input type="number" id="juanaAqua" placeholder="Aqua">
+        <input type="number" id="juanaEmocion" placeholder="Emocion">
+        <input type="number" id="juanaAlegria" placeholder="Alegria">
+        <input type="number" id="juanaFrescura" placeholder="Frescura">
+
+        <h4>Ventas de Pedro</h4>
+        <input type="number" id="pedroAqua" placeholder="Aqua">
+        <input type="number" id="pedroEmocion" placeholder="Emocion">
+        <input type="number" id="pedroAlegria" placeholder="Alegria">
+        <input type="number" id="pedroFrescura" placeholder="Frescura">
+
+        <button onclick="calcularVentas()">
+            Calcular ventas
+        </button>
+
+        <h3 id="resultado"></h3>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
